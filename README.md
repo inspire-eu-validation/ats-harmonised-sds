@@ -4,7 +4,7 @@ ats-harmonised-sds
 Abstract Test Suite for "Harmonised Spatial Data Services"
 as defined in the Technical Guidance for INSPIRE Spatial Data Services and services allowing spatial data services to be invoked.
 
-*Note*: This ATS is in draft stage, none of the tests have an official INSPIRE MIG approval.
+*Note*: This ATS is in ready for review stage, none of the tests have an official INSPIRE MIG approval.
 
 ## External document references
 

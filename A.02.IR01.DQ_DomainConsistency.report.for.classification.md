@@ -9,7 +9,7 @@ discover if a Spatial Data Service is classified as ```harmonised```.
 
 **Test method**
 
-* Check that there is at least one DQ_ConformanceResult returned from query [classification result harmonised](#result_invocable). If so, pass the test. Otherwise fail the test.
+* Check that there is at least one DQ_ConformanceResult returned from query [classification result harmonised](#result_harmonised). If so, pass the test. Otherwise fail the test.
 
 **Reference(s)**
 
@@ -28,4 +28,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-classification result harmonised <a name="result_invocable"></a> | /gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult[child::gmd:specification/@xlink:href='http://inspire.ec.europa.eu/conformanceClass/MD/1.4/SDS_Harmonised' and child::gmd:pass/gco:Boolean='true']
+classification result harmonised <a name="result_harmonised"></a> | /gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult[child::gmd:specification/@xlink:href='http://inspire.ec.europa.eu/conformanceClass/MD/1.4/SDS_Harmonised' and child::gmd:pass/gco:Boolean='true']
